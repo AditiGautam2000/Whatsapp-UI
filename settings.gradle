@@ -1,0 +1,2 @@
+rootProject.name = "Whatsapp UI"
+include ':app'

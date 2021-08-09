@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@color/white">
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/CardView"
+            app:cardCornerRadius="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boy1"
+                android:id="@+id/imageView">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Aditi Gautam"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/name"
+            android:layout_toRightOf="@id/CardView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="10:30am"
+            android:textSize="12sp"
+            android:id="@+id/time"
+            android:layout_toRightOf="@id/name"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:text="How are you"
+            android:textSize="15sp"
+            android:id="@+id/msg"
+            android:layout_toRightOf="@id/CardView"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
